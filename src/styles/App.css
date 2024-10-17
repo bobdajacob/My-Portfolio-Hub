@@ -1,4 +1,4 @@
-.hero-section {
+.main-container {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
   url('https://cdn.pixabay.com/photo/2017/01/13/08/08/tori-1976609_1280.jpg') center/cover no-repeat;
   height: 100vh;
@@ -7,5 +7,36 @@
   /* justify-content: center; */
   align-items: center;
   color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
+.hero-section {
+  text-align: center;
+  color: white;
+  /* color: #ADD8E6; */
+  font-family: 'Courier New', Courier, monospace;
+  font-size:larger;
+  height: '30vh';
+  display: 'flex';
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hero-text {
+  opacity: 0; /* Start with the text hidden */
+  transform: translateY(30px); /* Start from below */
+  animation: fadeInSlideUp 2s ease-out forwards; /* Apply animation */
+}
+
+/* Define the animation */
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

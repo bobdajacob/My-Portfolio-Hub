@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <div>
       <p>
-        Placeholder
+        Resume Placeholder
       </p>
     </div>
   );

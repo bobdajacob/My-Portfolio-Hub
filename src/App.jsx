@@ -1,18 +1,19 @@
-import { Outlet } from "react-router-dom";
-import Nav from './components/Navbar';
+// import { Outlet } from "react-router-dom";
 import HeroSection from "./components/herosection";
-
+import Navbar from "./components/Navbar";
+import Footer from './components/Footer'
+import { Outlet } from 'react-router-dom';
+import "./styles/App.css"
 
 function App() {
   return (
-    <>
-      <Nav />
-      <HeroSection />
-      <main className="mx-3">
-        <Outlet />
-      </main>
-    </>
-  );
+  <div className="main-container">
+    <Navbar />
+    <HeroSection/>
+    <Outlet />
+    <Footer />
+  </div>
+  )
 }
 
 export default App;

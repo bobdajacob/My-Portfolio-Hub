@@ -3,9 +3,8 @@ import '../styles/App.css';
 
 function HeroSection() {
 return (
-  <div className="hero-section">
-    <h1>Welcome to my Portfolio Hub!</h1>
-    <p>This is my starting code to showcase my work!</p>
+  <div className='hero-section'>
+    <h1 className='hero-text'>My name is Bob Jacob! Welcome to my Portfolio Hub!</h1>
   </div>
   );
 }
