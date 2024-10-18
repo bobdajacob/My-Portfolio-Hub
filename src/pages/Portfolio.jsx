@@ -9,12 +9,12 @@ const portfolioApplications1 = [
   },
 ]
 
-const portfolioApplications2 = [{
-  title: 'Application 2',
-  imgSrc: 'https://www.shutterstock.com/image-vector/coming-soon-on-dark-background-600nw-2364512887.jpg',
-  deployedUrl: '',
-  githubUrl: '',
-}]
+// const portfolioApplications2 = [{
+//   title: 'Application 2',
+//   imgSrc: 'https://www.shutterstock.com/image-vector/coming-soon-on-dark-background-600nw-2364512887.jpg',
+//   deployedUrl: '',
+//   githubUrl: '',
+// }]
   
 
 function Portfolio() {
@@ -32,7 +32,7 @@ function Portfolio() {
             </div>
           </div>
         ))}
-        <h2 className="portfolio-title">Coming Soon!</h2>
+        {/* <h2 className="portfolio-title">Coming Soon!</h2>
         {portfolioApplications2.map((item, index) => (
           <div key={index} className="portfolio-item">
             <img src={item.imgSrc} alt={item.title} className="portfolio-image" />
@@ -42,7 +42,7 @@ function Portfolio() {
               <a href={item.githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
             </div>
           </div>
-        ))}
+        ))} */}
         {/* <h2 className="portfolio-title">More!</h2>
         {portfolioApplications2.map((item, index) => (
           <div key={index} className="portfolio-item">
