@@ -1,11 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
-import '../styles/index.css';
+import '../styles/App.css';
 
 function Navbar() {
   const currentPage = useLocation().pathname;
 
   function checkPath(pathname) {
-    return pathname === currentPage ? 'nav-link shadow-lg' : 'nav-link';
+    return pathname === currentPage ? 'nav-link active' : 'nav-link';
   }
 
   const linkStyle = { 
@@ -13,27 +13,29 @@ function Navbar() {
     display: 'inline',
     margin: '100px',
     justifyContent: 'space-around',
+    flexWrap: 'wrap',
+    alignItems: 'center',
   };
 
   return (
     <ul className='nav nav-tabs'>
-      <li style={linkStyle} className="about-me">
-        <Link to='/' className={checkPath === '/' ? 'nav-link active' : 'nav-link'}>
+      <li style={linkStyle}>
+        <Link to='/' className={checkPath('/')}>
           About Me
         </Link>
       </li>
       <li style={linkStyle}>
-        <Link to='/Portfolio' className={checkPath === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
+        <Link to='/Portfolio' className={checkPath('/Portfolio')}>
           My Portfolio
         </Link>
       </li>
       <li style={linkStyle}>
-        <Link to='/Resume' className={checkPath === '/Resume' ? 'nav-link active' : 'nav-link'}>
+        <Link to='/Resume' className={checkPath('/Resume')}>
           My Resume
         </Link>
       </li>
       <li style={linkStyle}>
-        <Link to='/Contact' className={checkPath === '/Contact' ? 'nav-link active' : 'nav-link'}>
+        <Link to='/Contact' className={checkPath('/Contact')}>
           Contact
         </Link>
       </li>

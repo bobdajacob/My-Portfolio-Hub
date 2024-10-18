@@ -5,21 +5,21 @@
 THEN I am presented with a page containing a header, a section for content, and a footer
 
 ## Header component
-- [] header that appears on multiple pages
-- [] My name
-- [] Nav titles that link to different section (about me, portfolio, contact, resume)
+- [x] header that appears on multiple pages
+- [x] My name
+- [x] Nav titles that link to different section (about me, portfolio, contact, resume)
 
 ## Navigation component
-- [] About me
-  - [] Welcome to my Portfolio + Short bio
+- [x] About me
+  - [x] Welcome to my Portfolio + Short bio
   - [] Profile picture?
 
-- [] Contact
-  - [] Name
-  - [] Email
-  - [] phone?
-  - [] Message (message is required)
-  - [] Send button
+- [x] Contact
+  - [x] Name
+  - [x] Email
+  - [x] phone?
+  - [x] Message (message is required)
+  - [x] Send button
 
 - [] Resume
   - [] Download my resume
