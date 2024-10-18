@@ -1,41 +1,49 @@
 # My-Portfolio-Hub
 
-### Structure
+## Description
 
-THEN I am presented with a page containing a header, a section for content, and a footer
+This is a single-page application (SPA) portfolio for a web developer. It showcases my projects, skills, and contact information, providing a comprehensive overview of my work and experience. The application features smooth navigation and an interactive design that enhances the user experience.
 
-## Header component
-- [x] header that appears on multiple pages
-- [x] My name
-- [x] Nav titles that link to different section (about me, portfolio, contact, resume)
+## Features
 
-## Navigation component
-- [x] About me
-  - [x] Welcome to my Portfolio + Short bio
-  - [] Profile picture?
+- **Header:** Displays the developer's name and navigation titles.
+- **Navigation:** Includes sections for **About Me**, **Portfolio**, **Contact**, and **Resume**. The current section is highlighted.
+- **Smooth Navigation:** Clicking on a navigation title displays the corresponding section without reloading the page.
+- **Default View:** The **About Me** section is selected by default when the portfolio loads for the first time.
+- **About Me Section:** Features a recent photo/avatar and a short bio about the developer.
+- **Portfolio Section:** Displays titled images of six applications, with links to both deployed applications and corresponding GitHub repositories.
+- **Contact Section:** Contains a contact form with fields for name, email, and message. Users receive notifications for required fields and invalid email addresses.
+- **Resume Section:** Provides a downloadable link to the developer's resume and a list of proficiencies.
+- **Footer:** Includes links to GitHub, LinkedIn, and a third platform (e.g., Twitter).
 
-- [x] Contact
-  - [x] Name
-  - [x] Email
-  - [x] phone?
-  - [x] Message (message is required)
-  - [x] Send button
+## Installation
 
-- [] Resume
-  - [] Download my resume
-  - [] Summary
-  - [] Skills
-  - [] Work experience
-  - [] education
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:bobdajacob/My-Portfolio-Locco-Hub.git
+2. Navigate to the directory:
+   ```bash
+   cd your-repo-name
+3. Install dependencies:
+   ```bash
+   npm install
 
-## Project component
-- [] Portfolio
-  - [] Thumbnail Image: A screenshot or image of the project.
-  - [] Title: Name of the project.
-  - [] Short Description: A brief overview of the project (e.g., technologies used, purpose).
-  - [] Link: Button to view the project live or view the code (e.g., GitHub).
+## Usage
+To run the application, use the following command:
+   ```bash
+   npm run dev
+   ```
 
-## Footer component
-- [] GitHub
-- [] LinkedIn
-- [] Twitter
+## Technologies Used
+- **React:** A framework/library for building user interfaces.
+- **CSS:** For styling and layout.
+- **HTML:** Structure of the web application.
+- **JavaScript** For functionality and interactivity.
+
+## License
+This project is licensed under the MIT License.
+
+![License](https://img.shields.io/badge/license-MIT-yellow)
+
+## GitHub Link
+https://github.com/bobdajacob/My-Portfolio-Locco-Hub
