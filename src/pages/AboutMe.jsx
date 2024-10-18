@@ -23,7 +23,7 @@ const headingStyles = {
 
 const paragraphStyles = {
   margin: '0',
-  lineHeight: '3',
+  lineHeight: '1.5',
 };
 
 export default function AboutMe() {

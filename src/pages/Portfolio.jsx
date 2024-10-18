@@ -15,36 +15,7 @@ const portfolioApplications2 = [{
   deployedUrl: '',
   githubUrl: '',
 }]
-  // {
-  //   title: 'Application 2',
-  //   imgSrc: '',
-  //   deployedUrl: '',
-  //   githubUrl: '',
-  // },
-  // {
-  //   title: 'Application 3',
-  //   imgSrc: '',
-  //   deployedUrl: '',
-  //   githubUrl: '',
-  // },
-  // {
-  //   title: 'Application 4',
-  //   imgSrc: '',
-  //   deployedUrl: '',
-  //   githubUrl: '',
-  // },
-  // {
-  //   title: 'Application 5',
-  //   imgSrc: '',
-  //   deployedUrl: '',
-  //   githubUrl: '',
-  // },
-  // {
-  //   title: 'Application 6',
-  //   imgSrc: '',
-  //   deployedUrl: '',
-  //   githubUrl: '',
-  // },
+  
 
 function Portfolio() {
   return (
