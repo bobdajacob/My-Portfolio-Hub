@@ -4,7 +4,7 @@ const styles = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  height: '55vh',
+  height: '50vh',
   textAlign: 'center',
   fontSize: '30px',
   boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',

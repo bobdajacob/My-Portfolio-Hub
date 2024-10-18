@@ -46,7 +46,7 @@
 
 .hero-text {
   font-size: 3rem;
-  color: white;
+  color: rgb(93, 12, 12);
   text-shadow: 
     2px 2px 4px rgba(0, 0, 0, 0.5),
     0 0 25px rgba(255, 255, 255, 0.8),
@@ -56,6 +56,12 @@
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInSlideUp 2s ease-out forwards;
+  background: url('https://tokyopenshop.com/cdn/shop/products/mtjapanesewaves_16_LRG_3f358060-76b6-4206-89de-26d0c22a435b.jpg?v=1655837650&width=1445') center/cover no-repeat;
+  filter: grayscale(100%);
+  padding: 20px;
+  border-radius: 0px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Define the animation */

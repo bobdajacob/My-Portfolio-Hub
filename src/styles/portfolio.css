@@ -1,0 +1,102 @@
+/* .portfolio-item { 
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Flexbox responsiveness */
+/* @media (max-width: 1200px) {
+  .portfolio-item {
+    flex: 1 1 calc(50% - 40px);
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-item {
+    flex: 1 1 100%;
+  }
+}  */
+
+.portfolio-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4; /* Light background */
+  background: url('https://img.freepik.com/premium-vector/japanese-samurai-background-japan-theme-background-samurai-wallpaper-landscape-fantasy-walpaper_444852-567.jpg') center/cover no-repeat;
+  filter: grayscale(100%);
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+
+.portfolio-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #dadada;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: space-between; /* Space out items evenly */
+  gap: 20px; /* Add space between items */
+  padding: 20px;
+}
+
+.portfolio-item {
+  flex: 1 1 calc(33.333% - 20px); /* Adjust width to allow 3 items per row */
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden; /* Prevent overflow */
+  /* padding-bottom: 20px; */
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.portfolio-item h3 {
+  margin: 10px 0;
+}
+
+.portfolio-links {
+  margin: 10px 0;
+  font-size: large;
+}
+
+.portfolio-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.portfolio-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Flexbox responsiveness */
+@media (max-width: 768px) {
+  .portfolio-item {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .portfolio-item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+
