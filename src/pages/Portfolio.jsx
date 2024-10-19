@@ -1,66 +1,85 @@
-import React from 'react';
-import '../styles/Portfolio.css';
+import React from "react";
+import "../styles/Portfolio.css";
 
-const portfolioApplications1 = [
+const titleStyle = {
+  color: 'coral',
+  textShadow: '0 0 5px #E6E6FA, 0 0 10px #E6E6FA, 0 0 15px #D8BFD8, 0 0 20px #D8BFD8',
+  fontWeight: 'bold',
+  fontFamily: 'sans-serif',
+  fontSize: '2rem',
+}
+
+const linkStyle = {
+  color: 'black',
+  fontWeight: 'bold',
+}
+
+const projects = [
   {
+    title: `That's Trippy Vacation App`,
     imgSrc: 'src/assets/Travelapp.PNG',
     deployedUrl: 'https://gar-bot.github.io/GitHappens/',
     githubUrl: 'https://github.com/Gar-bot/GitHappens',
   },
-]
-
-// const portfolioApplications2 = [{
-//   title: 'Application 2',
-//   imgSrc: 'https://www.shutterstock.com/image-vector/coming-soon-on-dark-background-600nw-2364512887.jpg',
-//   deployedUrl: '',
-//   githubUrl: '',
-// }]
-  
+  {
+    // imgSrc: 'src/assets/Travelapp.PNG',
+    title: 'Coming Soon',
+    imgSrc: 'https://img.freepik.com/free-vector/abstract-coming-soon-new-arrival-background-with-splatter-effect_1017-54591.jpg',
+    deployedUrl: '',
+    githubUrl: '',
+  },
+  {
+    // imgSrc: 'src/assets/Travelapp.PNG'
+    title: 'Coming soon',
+    imgSrc: 'https://img.freepik.com/free-vector/abstract-coming-soon-new-arrival-background-with-splatter-effect_1017-54591.jpg',
+    deployedUrl: '',
+    githubUrl: '',
+  },
+  {
+    // imgSrc: 'src/assets/Travelapp.PNG',
+    title: 'Coming soon',
+    imgSrc: 'https://img.freepik.com/free-vector/abstract-coming-soon-new-arrival-background-with-splatter-effect_1017-54591.jpg',
+    deployedUrl: '',
+    githubUrl: '',
+  },
+  {
+    // imgSrc: 'src/assets/Travelapp.PNG',
+    title: 'Coming soon',
+    imgSrc: 'https://img.freepik.com/free-vector/abstract-coming-soon-new-arrival-background-with-splatter-effect_1017-54591.jpg',
+    deployedUrl: '',
+    githubUrl: '',
+  },
+  {
+    // imgSrc: 'src/assets/Travelapp.PNG',
+    title: 'Coming soon',
+    imgSrc: 'https://img.freepik.com/free-vector/abstract-coming-soon-new-arrival-background-with-splatter-effect_1017-54591.jpg',
+    deployedUrl: '',
+    githubUrl: '',
+  }
+];
 
 function Portfolio() {
   return (
-    <section className="portfolio-section">
-      <h2 className="portfolio-title">That'sTrippy - Vacation Destination Recommendation App</h2>
-      <div className="portfolio-grid">
-        {portfolioApplications1.map((item, index) => (
-          <div key={index} className="portfolio-item">
-            <img src={item.imgSrc} alt={item.title} className="portfolio-image" />
-            {/* <h3>{item.title}</h3> */}
-            <div className="portfolio-links">
-              <a href={item.deployedUrl} target="_blank" rel="noopener noreferrer">View Deployed App</a>
-              <a href={item.githubUrl} target="_blank" rel="noopener noreferrer">ViewGitHub Repo</a>
-            </div>
+    <>
+      <div className="parent-box">
+        {projects.map((project) => {
+          return (
+          <div className="box">
+            <h1 style={titleStyle}>{project.title}</h1>
+            <div 
+              className="box-photo"
+              style={{
+                backgroundImage: `url(${project.imgSrc})`
+              }}
+              ></div>
+              <a style={linkStyle} href={project.deployedUrl} target="_blank" rel="noopener noreferrer">View Deployed App</a>
+              <a style={linkStyle} href={project.githubUrl} target="_blank" rel="noopener noreferrer">ViewGitHub Repo</a>
           </div>
-        ))}
-        {/* <h2 className="portfolio-title">Coming Soon!</h2>
-        {portfolioApplications2.map((item, index) => (
-          <div key={index} className="portfolio-item">
-            <img src={item.imgSrc} alt={item.title} className="portfolio-image" />
-            <h3>{item.title}</h3>
-            <div className="portfolio-links">
-              <a href={item.deployedUrl} target="_blank" rel="noopener noreferrer">Deployed App</a>
-              <a href={item.githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-            </div>
-          </div>
-        ))} */}
-        {/* <h2 className="portfolio-title">More!</h2>
-        {portfolioApplications2.map((item, index) => (
-          <div key={index} className="portfolio-item">
-            <img src={item.imgSrc} alt={item.title} className="portfolio-image" />
-            <h3>{item.title}</h3>
-            <div className="portfolio-links">
-              <a href={item.deployedUrl} target="_blank" rel="noopener noreferrer">Deployed App</a>
-              <a href={item.githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-            </div>
-          </div>
-          ))} */}
+          );
+        })}
       </div>
-    </section>
+    </>
   );
 }
 
-
-
 export default Portfolio;
-
-

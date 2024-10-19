@@ -15,6 +15,8 @@ function Navbar() {
     justifyContent: 'space-around',
     flexWrap: 'wrap',
     alignItems: 'center',
+    background: `url(https://png.pngtree.com/thumb_back/fw800/background/20240620/pngtree-japanese-festival-on-the-night-image_15904198.jpg) center/cover no-repeat`,
+    filter: 'grayscale(100%)',
   };
 
   return (
