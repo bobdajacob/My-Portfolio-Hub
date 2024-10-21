@@ -80,6 +80,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: URL('https://static.vecteezy.com/system/resources/previews/014/918/778/non_2x/vintage-japanese-peach-blossom-background-free-vector.jpg');
+  filter: grayscale(100%);
 }
 
 .nav-link {
