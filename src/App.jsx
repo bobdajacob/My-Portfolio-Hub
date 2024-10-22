@@ -1,5 +1,5 @@
 // import { Outlet } from "react-router-dom";
-import HeroSection from "./components/herosection";
+import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer'
 import { Outlet } from 'react-router-dom';
