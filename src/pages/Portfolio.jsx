@@ -17,7 +17,7 @@ const linkStyle = {
 const projects = [
   {
     title: `That's Trippy Vacation App`,
-    imgSrc: 'src/assets/Travelapp.PNG',
+    imgSrc: '/src/assets/Travelapp.PNG',
     deployedUrl: 'https://gar-bot.github.io/GitHappens/',
     githubUrl: 'https://github.com/Gar-bot/GitHappens',
   },
