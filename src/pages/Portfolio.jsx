@@ -17,7 +17,7 @@ const linkStyle = {
 const projects = [
   {
     title: `That's Trippy Vacation App`,
-    imgSrc: 'https://files.oaiusercontent.com/file-aoocqUwtLAkL0vY3s5ruaOHo?se=2024-10-26T02%3A15%3A29Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db4553911-f7b5-49b3-8730-34c25a80453f.webp&sig=QY98CesvK1dkg8SRqcGPrbQdA0qokqr6RJPRy22EmAI%3D',
+    imgSrc: 'https://img.freepik.com/free-vector/travel-onboarding-app-screens_23-2148423010.jpg',
     deployedUrl: 'https://gar-bot.github.io/GitHappens/',
     githubUrl: 'https://github.com/Gar-bot/GitHappens',
   },
