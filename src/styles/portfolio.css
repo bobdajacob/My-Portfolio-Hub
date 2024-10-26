@@ -23,13 +23,13 @@
 }
 
 .box-photo {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 80%;
   height: 250px;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
+  background-size: contain;
+  padding: 30px;
 }
 
 
